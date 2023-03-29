@@ -1,3 +1,4 @@
+
 import React from "react";
 
 
@@ -13,8 +14,8 @@ export default function SearchResults({sokeFunksjon, handleInputChange , }) {
 
     return (
         <form onSubmit = {handleSearch}>
-            <input name="search" placeholder="sok etter film" type="text" onChange={handleInputChange}/>
-            <button onClick={handleSearch} type="submit">Søk filmer</button>
+            <input name="search" placeholder="søk etter film" type="text" onChange={handleInputChange}/>
+            <button onClick={handleSearch} type="submit">Søk</button>
 
             
 
