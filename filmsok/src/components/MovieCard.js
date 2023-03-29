@@ -1,6 +1,6 @@
 
 import React from 'react';
-import placeholder from './150.png';
+import placeholder from './300x300.png';
 
 export default function MovieCard({ Filmtittel, year, director, awards, genre, actors, img}) {
     return (
