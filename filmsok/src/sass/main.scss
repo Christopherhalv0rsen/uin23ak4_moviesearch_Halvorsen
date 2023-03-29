@@ -1,3 +1,8 @@
-*{
-    background-color: antiquewhite;
+$primary-color: bisque;
+$secondary-color: #6c757d;
+$font-family: 'Open Sans', sans-serif;
+
+body{
+    font-family: $font-family;
+    background-color: $primary-color;
 }
