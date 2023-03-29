@@ -7,6 +7,54 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #6c757d;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+button {
+  background-color: #c4c6c8;
+  border-radius: 4%;
+  font-size: 18px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15%;
+}
+form input {
+  width: auto;
+  margin-right: 10px;
+  border-radius: 4%;
+  padding: 10px;
+  box-shadow: 0 0 5px #6c757d;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(auto auto auto auto);
+  grid-gap: 20px;
+  padding: 20px;
+}
+main article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: bisque;
+  border-radius: 4%;
+  box-shadow: 0 0 5px #6c757d;
+}
+main img {
+  width: auto;
+  height: auto;
+}
+main h2 {
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=main.css.map */

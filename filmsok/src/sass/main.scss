@@ -1,5 +1,6 @@
 $primary-color: bisque;
 $secondary-color: #6c757d;
+$third-color: #c4c6c8;
 $font-family: 'Open Sans', sans-serif;
 
 body{
@@ -11,4 +12,58 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: $secondary-color;
+}
+
+h1{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+button{
+    background-color: $third-color;
+    border-radius: 4%;
+    font-size: 18px;
+
+}
+
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+
+    input{
+        width:auto;
+        margin-right: 10px;
+        border-radius: 4%;
+        padding: 10px;
+        box-shadow: 0 0 5px $secondary-color;
+    }
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(auto auto auto auto);
+    grid-gap: 20px;
+    padding: 20px;
+
+    article{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: $primary-color;
+        border-radius: 4%;
+        box-shadow: 0 0 5px $secondary-color;
+    }
+
+    img{
+        width: auto;
+        height: auto;
+    }
+
+    h2{
+        font-weight: bold;
+    }
 }
