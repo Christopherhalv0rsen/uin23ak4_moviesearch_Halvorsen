@@ -23,7 +23,7 @@ function App() {
         return { ...result, year: filmData.Year, ...filmData };
 
       });
-      const film = await Promise.all(filmPromises); //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/Promise
+      const film = await Promise.all(filmPromises); //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/Promise  / https://lms.webtricks.blog/kurs/uin/asynkronitet-og-api-behandling/api-behandling#ha74899949c25
       setfilm(film);
     } else {
       setfilm([]);
